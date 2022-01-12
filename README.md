@@ -1,4 +1,4 @@
-# SIR Modeling of spread of COVID-19
+# SIR Modelling of spread of COVID-19 🦠
 
 ### Model 1. SIR model for an infectious disease:
 The SIR model breaks down the population into three-subgroups on the basis of infection.
@@ -31,3 +31,32 @@ We provide a control **parameter u** to indicate the success of these attempts f
 | *Model 3* |
 |:--:| 
 | <img width="1000" height="250" src="https://github.com/Jeevesh28/SIR-Modelling-Covid-19/blob/main/Graphs/Model3.png">| 
+
+### Simulation of SIR model using Mesa Agent-based modelling: 📺
+Model the spread of COVID-19 using a model based on the SIR model (susceptible, infectious, recovered). The cells are arranged in a grid and several agents (people) migrate between adjacent cells, potentially infecting one another.
+
+**Assumptions:**
+* We have a set number of agents (adjustable parameter) who are given random cells in the grid at the start.
+* Throughout the simulation, a fixed percentage (adjustable parameter) of the agents are masked or unmasked.
+* At every step, an agent either stays at his/her cell or moves to an adjacent one.
+* When a susceptible agent is in the same cell as an infected agent, the chance of infection (adjustable parameter) differs between masked and unmasked agents.
+* If an agent is infected, he/she recovers and becomes immune after a certain number of simulation steps (adjustable parameter).
+* Immunity goes away after a certain number of steps (adjustable parameter) and the agent becomes susceptible once again.
+
+**Visuals:**
+* Agents will be represented as circles in our grid.
+* Susceptible agents are blue, infected are orange, recovered and immune are green.
+* If a circle is (not) filled it means the agent is (not) masked.
+
+<img src="https://github.com/Jeevesh28/SIR-Modelling-Covid-19/blob/main/GIFs/Simulation.gif" align="left" style="display:inline;" width="450" >
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+The following line chart dynamically shows us the number of susceptible, infected, and recovered agents throughout the simulation:
+<br />
+<br />
+<img src="https://github.com/Jeevesh28/SIR-Modelling-Covid-19/blob/main/GIFs/Graph.gif" style="display:inline;" width="450" >
