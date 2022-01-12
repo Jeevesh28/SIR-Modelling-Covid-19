@@ -48,15 +48,6 @@ Model the spread of COVID-19 using a model based on the SIR model (susceptible, 
 * Susceptible agents are blue, infected are orange, recovered and immune are green.
 * If a circle is (not) filled it means the agent is (not) masked.
 
-<img src="https://github.com/Jeevesh28/SIR-Modelling-Covid-19/blob/main/GIFs/Simulation.gif" align="left" style="display:inline;" width="450" >
-
-<br />
-<br />
-<br />
-<br />
-<br />
-
-The following line chart dynamically shows us the number of susceptible, infected, and recovered agents throughout the simulation:
-<br />
-<br />
-<img src="https://github.com/Jeevesh28/SIR-Modelling-Covid-19/blob/main/GIFs/Graph.gif" style="display:inline;" width="450" >
+| Simulation | Line Chart |
+| ---------- | ---------- |
+| <img width="1000" height="500" src="https://github.com/Jeevesh28/SIR-Modelling-Covid-19/blob/main/GIFs/Simulation.gif"> | The following line chart dynamically shows us the number of susceptible, infected, and recovered agents throughout the simulation: <br/> <br/> <img width="450" height="200" src="https://github.com/Jeevesh28/SIR-Modelling-Covid-19/blob/main/GIFs/Graph.gif"> |
